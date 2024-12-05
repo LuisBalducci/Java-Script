@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(123, 194, 196);
+}
+
+.imc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    background-color:cadetblue;
+    padding: 20px;
+    border-radius: 5px;
+}
+.imc input{
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+#resposta{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 24px;
+    color: white;
+}
+#calcular{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgb(81, 106, 108);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+#calcular:hover{
+    background-color: rgb(132, 176, 178);
+    
+}

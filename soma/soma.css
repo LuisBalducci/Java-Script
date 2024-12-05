@@ -1,0 +1,33 @@
+.soma{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin: auto;
+    width: 40%;
+    background-color:cadetblue;
+    padding: 20px;
+}
+.soma input{
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+#resposta{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 24px;
+    color: white;
+}
+#calcular{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgb(132, 176, 178);
+    color: rgb(73, 62, 62);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
